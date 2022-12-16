@@ -1,11 +1,16 @@
 import React from "react";
+import Header from './Header';
+import Footer from './Footer';
+import Main from './Main';
+import SideBar from './SideBar';
 
 function Layout(){
     return(
         <div className="container-fluid">
-            <p>
-                Layout
-            </p>
+            <Header/>       
+            <SideBar/>  
+            <Main/>  
+            <Footer/>       
         </div>
     );
 }

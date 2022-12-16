@@ -1,13 +1,13 @@
 import React from "react";
 
-function Body(){
+function Main(){
     return(
         <div className="container-fluid">
             <p>
-                Body
+                Main
             </p>
         </div>
     );
 }
 
-export default Body;
+export default Main;
